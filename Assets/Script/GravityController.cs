@@ -18,6 +18,7 @@ public class GravityController : MonoBehaviour
     {
         Vector3 vector = new Vector3();
 
+        //GetAxisは−1〜1の値を返す
         vector.x = Input.GetAxis("Horizontal");
         vector.z = Input.GetAxis("Vertical");
 
